@@ -10,6 +10,9 @@ $(call inherit-product, vendor/du/config/common_full_phone.mk)
 # Inherit from RMX1921 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# FOD Animation
+EXTRA_FOD_ANIMATIONS := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1921
 PRODUCT_NAME := du_RMX1921
